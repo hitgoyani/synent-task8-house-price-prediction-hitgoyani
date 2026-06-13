@@ -1,0 +1,27 @@
+{
+    "dataset": "California Housing (sklearn)",
+    "total_records": 20640,
+    "features_used": [
+        "MedInc",
+        "HouseAge",
+        "AveRooms",
+        "AveBedrms",
+        "Population",
+        "AveOccup",
+        "Latitude",
+        "Longitude",
+        "rooms_per_bedrooms"
+    ],
+    "feature_engineered": "rooms_per_bedrooms = AveRooms / AveBedrms",
+    "target": "MedHouseVal (multiply by 100000 for USD)",
+    "best_model": "Random Forest Regressor",
+    "best_params": {
+        "max_depth": null,
+        "n_estimators": 200
+    },
+    "MAE_USD": 32701.06,
+    "RMSE_USD": 50398.92,
+    "R2_score": 0.8062,
+    "random_state": 42,
+    "test_size": 0.2
+}
