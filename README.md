@@ -11,6 +11,9 @@ and geographic features using supervised machine learning.
 Compare Linear Regression (baseline) against Random Forest
 Regressor and deploy the best model as a Streamlit web app.
 
+*Disclaimer: INR values are shown for localization purposes only.
+The underlying model was trained on the California Housing dataset.*
+
 ---
 
 ## Dataset
